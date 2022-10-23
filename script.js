@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-undef */
 const corPreta = document.getElementById('first');
 window.onload = () => {
   corPreta.classList.add('selected');
@@ -23,20 +25,20 @@ selecionarCor();
 
 function selecionarPixel() {
   const pixelSelecionado = document.getElementById('pixel-board');
-  pixelSelecionado.addEventListener('click', function (event) {
+  pixelSelecionado.addEventListener('click', (event) => {
     const getSelected = document.querySelector('.selected');
-        let novaCor = window.getComputedStyle(getSelected).backgroundColor;
-        event.target.style.backgroundColor = novaCor;
-    });
+    const novaCor = window.getComputedStyle(getSelected).backgroundColor;
+    event.target.style.backgroundColor = novaCor;
+  });
 }
 selecionarPixel();
 
 function limparPixels() {
-  let buttom = document.getElementById("clear-board");
-  buttom.addEventListener("click", function () {
-    let pixels = document.getElementsByClassName("pixel");
+  const buttom = document.getElementById('clear-board');
+  buttom.addEventListener('click', () => {
+    const pixels = document.getElementsByClassName('pixel');
     for (let index = 0; index < pixels.length; index += 1) {
-      pixels[index].style.backgroundColor = "white";
+      pixels[index].style.backgroundColor = 'white';
     }
   });
 }
