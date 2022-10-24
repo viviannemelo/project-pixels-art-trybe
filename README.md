@@ -1,10 +1,17 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Pixels Art 🖌️
+
+Esse é um projeto desenvolvido durante o módulo de Fundamentos na [Trybe](https://www.betrybe.com/), em que utilizamos os conhecimentos de como manipular o DOM com JavaScript para criar uma página interativa.
+
+![Screenshot - preview](./preview.gif)
+
+## Skills desenvolvidas
+
+* Desenvolvimento com HTML, CSS e JavaScript;
+* Manipulação do DOM para acessar elementos HTML;
+* Criar interatividade em página utilizando event listeners.
+
+## Ferramentas utilizadas
+
+* HTML5
+* CSS3
+* JavaScript ES6+
